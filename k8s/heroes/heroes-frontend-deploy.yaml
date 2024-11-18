@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: heroes-frontend-deploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: heroes-frontend
+  template:
+    metadata:
+      labels:
+        app: heroes-frontend
+    spec:
+      containers:
+        - name: heroes-frontend
+          image: 774305581884.dkr.ecr.ap-northeast-2.amazonaws.com/frontend-repo:62-frontend
+          ports:
+            - containerPort: 80
