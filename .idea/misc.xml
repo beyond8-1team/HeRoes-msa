@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Backend/attendance-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/certification-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/education-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/evaluation-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/notice-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/notification-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/salary-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/schedule-service" />
+    <file type="web" url="file://$PROJECT_DIR$/Backend/user-department-service" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

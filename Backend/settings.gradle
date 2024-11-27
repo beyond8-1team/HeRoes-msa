@@ -1,0 +1,5 @@
+rootProject.name = 'Backend'
+
+include 'attendance-service', 'certification-service', 'education-service'
+include 'evaluation-service', 'notice-service', 'notification-service'
+include 'salary-service', 'schedule-service', 'user-department-service'
